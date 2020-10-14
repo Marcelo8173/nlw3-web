@@ -5,7 +5,6 @@ import { FiPlus } from 'react-icons/fi';
 import { Map, TileLayer } from 'react-leaflet';
 import './ListMap.css';
 import 'leaflet/dist/leaflet.css';
-import { tileLayer } from 'leaflet';
 
 const ListMap = () => {
     return(
