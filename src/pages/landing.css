@@ -9,8 +9,7 @@
 
 #page-landing .content-wrapper{
     width: 100%;
-    max-width: 1100px;
-
+    max-width: 1200px;
     height: 100%;
     max-height: 680px;
 
@@ -36,12 +35,30 @@
 
 .content-wrapper .location{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 150px;
+    top: 100px;
+
+    font-size: 24px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
 }
 
+.content-wrapper .location strong{
+    font-weight: 800;
+}
 .content-wrapper .enter-to-page{
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 150px;
+    bottom: 120px;
+
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

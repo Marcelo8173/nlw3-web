@@ -11,7 +11,7 @@ function App() {
         <img src={LogoImg} alt="Logo"/>
 
         <main>
-          <h1 id="title">Leve felicidade para o mundo</h1>
+          <h1>Leve felicidade para o mundo</h1>
           <p>Visite orfanatos e mude o dia de muitas crianças.</p>
         </main>
 
