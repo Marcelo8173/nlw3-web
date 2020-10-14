@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/global.css';
 import './pages/landing.css'
 import LogoImg from './assets/Logo.png';
+import { FiArrowRight } from 'react-icons/fi'; 
 import {Link} from 'react-router-dom';
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
         </div>
 
         <a href="/" className="enter-to-page">
-
+          <FiArrowRight size={26} color="rgba(0,0,0,0.6)"/>
         </a> 
       </div>
     </div>
