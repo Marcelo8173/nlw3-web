@@ -50,7 +50,7 @@ const ListMap = () => {
                 </Marker>
             </Map>
 
-            <Link to="/" className="create">
+            <Link to="/create_orphanages" className="create">
                 <FiPlus size={32} color="#FFF" />
             </Link>
         </div>
