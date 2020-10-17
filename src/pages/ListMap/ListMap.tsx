@@ -43,7 +43,7 @@ const ListMap = () => {
                 <Marker icon={mapIcon}  position={[-3.0590672, -60.0143848]}>
                     <Popup closeButton={false} minWidth={240} maxWidth={240} className="map-popup">
                         Lar das meninas
-                        <Link to="/">
+                        <Link to="/details_orphanages/1">
                             <FiArrowRight size={20} color="#FFF"/>
                         </Link>
                     </Popup>
